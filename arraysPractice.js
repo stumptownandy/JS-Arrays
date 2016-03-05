@@ -5,7 +5,10 @@ var arr = [10,20,30];
 //Create a function named 'first' that is given 'arr' as the argument and  returns the first item in the given array.
 
   //Code Here
-
+function first (list){
+  return list[0];
+}
+first (arr);
 
 //Next problem
 
@@ -16,6 +19,9 @@ var arr = [40,50,60];
 
 
   //Code Here
+function last(array){
+  return array[array.length-1]
+}
 
 
 //Next Problem
@@ -35,8 +41,16 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 //Write a function called reversedLooper that is given letters as it's only argument and loops through the given array backwards alerting every item in the array starting at the end.
 
   //Code Here
-
-
+var letters = function(x){
+  for(var i =.length; i<-1; i--){
+    console.log(x[i])
+  }
+}
+var reversedLooper = function(x){
+  for(var i =.length; i<-1; i--){
+    console.log(x[i])
+  }
+}
 //Next Problem
 
 
@@ -44,8 +58,9 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 //Write a function named evenFinder that is given nums as it's only argument and removes all values that aren't even from the given array.
 
   //Code Here
-
-
+function evenFindeer(array){}
+for(var i =array.length; i>0; i--){
+  if(array[i])
 //Next problem
 
 
@@ -58,7 +73,19 @@ var odds = [];
 
 
   //Code Here
-
+function divideer(nums, evens, odds){
+  var temp[]
+  for (var i= 0; i <nums.length; i++){
+    if(nums i % 2 ===0){
+      evens.push(nums[i]);
+    } else {
+      odds.push(nums[i])
+    }
+  }
+  temp.push(evens)
+  temp.push(odds)
+  return temp;
+}
 
 //Next Problem
 
@@ -80,7 +107,8 @@ var str = 'this is my sentence';
 //Write a function called reverse that takes a given str as it's only argument and returns that string after it's been reversed
 
   //Code Here
-
+var str = "this is my sentence"
+var reverse
 
 //Next Problem
 
@@ -100,6 +128,14 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 */
 
   //Code Here
+var removeItem = function(array, item){
+  for (var i= 0; i < array.length; i++){
+    if(item ===array [i]){
+      array.splice(i,1);
+    }
+  }
+return array;
+}
 
 //removeItem(myGroceryList, 'chips') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 //addItem(myGroceryList, 'Jerky') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs', 'Jerky'];
@@ -124,7 +160,11 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
 //array after adding ten to each item in numbers. *Verify your answer is correct. --> [15, 19, 26, 29, 35, 44, 58]
 
   //Code Here
-
+var maker = function ()
+var array =[];
+for(var i =1) i <array [i]){
+  
+}
 
 
 //Next Problem
